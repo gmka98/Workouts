@@ -1,0 +1,6 @@
+
+stepzen import $response = Invoke-WebRequest -Uri "https://api.api-ninjas.com/v1/exercises?muscle=chest" -Headers $headers
+$response.Content
+
+stepzen import curl https://api.api-ninjas.com/v1/exercises -H "X-API-KEY: y6tVqjkM3Fc0u8eT99I7GA==Scir9IWu0pbspCZN"
+stepzen import curl https://api.api-ninjas.com/v1/exercises\?muscle=chest -H "X-API-KEY: y6tVqjkM3Fc0u8eT99I7GA==Scir9IWu0pbspCZN"
